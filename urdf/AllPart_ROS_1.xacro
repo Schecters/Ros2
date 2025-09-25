@@ -5,34 +5,6 @@
 <robot
   name="AllPart_ROS_Z-up_W">
   <link
-    name="base_link">
-    <inertial>
-      <origin xyz="0 0 0" rpy="0 0 0" />
-      <mass value="0.01" />
-      <inertia ixx="0.01" ixy="0" ixz="0" iyy="0.01" iyz="0" izz="0.01" />
-    </inertial>
-    <visual>
-      <origin xyz="0 0 0" rpy="0 0 0" />
-      <geometry>
-        <box size="0.01 0.01 0.01" />
-      </geometry>
-      <material name="gray">
-        <color rgba="0.5 0.5 0.5 1" />
-      </material>
-    </visual>
-    <collision>
-      <origin xyz="0 0 0" rpy="0 0 0" />
-      <geometry>
-        <box size="0.01 0.01 0.01" />
-      </geometry>
-    </collision>
-  </link>
-  <joint name="base_joint" type="fixed">
-    <parent link="base_link" />
-    <child link="Origin_link" />
-    <origin xyz="0 0 0" rpy="0 0 0" />
-  </joint>
-  <link
     name="Origin_link">
     <inertial>
       <origin
@@ -54,7 +26,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="meshes/Origin_link.STL" />
+          filename="file:///home/nine/ballzaros_ws/src/ballzaros/meshes/Origin_link.STL" />
       </geometry>
       <material
         name="">
@@ -68,7 +40,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="meshes/Origin_link.STL" />
+          filename="file:///home/nine/ballzaros_ws/src/ballzaros/meshes/Origin_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -94,7 +66,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="meshes/Left_Wheel_Link.STL" />
+          filename="file:///home/nine/ballzaros_ws/src/ballzaros/meshes/Left_Wheel_Link.STL" />
       </geometry>
       <material
         name="">
@@ -108,7 +80,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="meshes/Left_Wheel_Link.STL" />
+          filename="file:///home/nine/ballzaros_ws/src/ballzaros/meshes/Left_Wheel_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -147,7 +119,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="meshes/Right_Wheel_Link.STL" />
+          filename="file:///home/nine/ballzaros_ws/src/ballzaros/meshes/Right_Wheel_Link.STL" />
       </geometry>
       <material
         name="">
@@ -161,7 +133,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="meshes/Right_Wheel_Link.STL" />
+          filename="file:///home/nine/ballzaros_ws/src/ballzaros/meshes/Right_Wheel_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -200,7 +172,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="meshes/Lidar_Front_Link.STL" />
+          filename="file:///home/nine/ballzaros_ws/src/ballzaros/meshes/Lidar_Front_Link.STL" />
       </geometry>
       <material
         name="">
@@ -214,7 +186,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="meshes/Lidar_Front_Link.STL" />
+          filename="file:///home/nine/ballzaros_ws/src/ballzaros/meshes/Lidar_Front_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -253,7 +225,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="meshes/Lidar_Back_Link.STL" />
+          filename="file:///home/nine/ballzaros_ws/src/ballzaros/meshes/Lidar_Back_Link.STL" />
       </geometry>
       <material
         name="">
@@ -267,7 +239,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="meshes/Lidar_Back_Link.STL" />
+          filename="file:///home/nine/ballzaros_ws/src/ballzaros/meshes/Lidar_Back_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -306,7 +278,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="meshes/Cam_Front_Link.STL" />
+          filename="file:///home/nine/ballzaros_ws/src/ballzaros/meshes/Cam_Front_Link.STL" />
       </geometry>
       <material
         name="">
@@ -320,7 +292,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="meshes/Cam_Front_Link.STL" />
+          filename="file:///home/nine/ballzaros_ws/src/ballzaros/meshes/Cam_Front_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -359,7 +331,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="meshes/Cam_Back_Link.STL" />
+          filename="file:///home/nine/ballzaros_ws/src/ballzaros/meshes/Cam_Back_Link.STL" />
       </geometry>
       <material
         name="">
@@ -373,7 +345,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="meshes/Cam_Back_Link.STL" />
+          filename="file:///home/nine/ballzaros_ws/src/ballzaros/meshes/Cam_Back_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -412,7 +384,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="meshes/IMU_Link.STL" />
+          filename="file:///home/nine/ballzaros_ws/src/ballzaros/meshes/IMU_Link.STL" />
       </geometry>
       <material
         name="">
@@ -426,7 +398,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="meshes/IMU_Link.STL" />
+          filename="file:///home/nine/ballzaros_ws/src/ballzaros/meshes/IMU_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -505,6 +477,31 @@
         <frame_name>Lidar_Back_Link</frame_name>
       </plugin>
     </sensor>
+  </gazebo>
+
+  <gazebo>
+    <plugin name='diff_drive' filename='libgazebo_ros_diff_drive.so'>
+      <!-- wheels -->
+      <left_joint>Left_Motor</left_joint>
+      <right_joint>Right_Motor</right_joint>
+
+      <!-- kinematics -->
+      <wheel_separation>0.26</wheel_separation>
+      <wheel_diameter>0.2</wheel_diameter>
+
+      <!-- limits -->
+  <max_wheel_torque>5000</max_wheel_torque>
+  <max_wheel_acceleration>2.0</max_wheel_acceleration>
+
+      <!-- output -->
+      <publish_odom>true</publish_odom>
+      <publish_odom_tf>true</publish_odom_tf>
+      <publish_wheel_tf>false</publish_wheel_tf>
+    
+  <odometry_frame>odom</odometry_frame>
+  <robot_base_frame>base_link</robot_base_frame>
+  <cmd_vel_topic>cmd_vel</cmd_vel_topic>
+    </plugin>
   </gazebo>
 
 </robot>

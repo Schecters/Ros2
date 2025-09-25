@@ -1,1 +1,1 @@
-/home/nine/ballzaros/build/gocargo/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/gocargo
+urdf_tutorial;rclcpp;sensor_msgs;rviz2;xacro;robot_state_publisher;joint_state_publisher;gazebo_ros;ros2_controllers;gazebo_ros2_control;ament_lint_auto;ament_lint_common

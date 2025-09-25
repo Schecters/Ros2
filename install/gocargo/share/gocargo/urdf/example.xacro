@@ -1,1 +1,418 @@
-/home/nine/ballzaros/urdf/example.xacro
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="AllPart_ROS_Z-up_3">
+  <link
+    name="Origin_link">
+    <inertial>
+      <origin
+        xyz="-0.0152428057563666 -0.00991767327221756 0.502209654214438"
+        rpy="0 0 0" />
+      <mass
+        value="49.9075793450262" />
+      <inertia
+        ixx="2.05565105685632"
+        ixy="0.128694694875496"
+        ixz="0.00188798467540068"
+        iyy="1.45633366205444"
+        iyz="-0.00046580685675226"
+        izz="1.349603100084" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/nine/ballzaros/meshes/Origin_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/nine/ballzaros/meshes/Origin_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="Left_Wheel_Link">
+    <inertial>
+      <origin
+        xyz="-2.46248585534373E-19 0 0.00950000000000001"
+        rpy="0 0 0" />
+      <mass
+        value="0.108269552981515" />
+      <inertia
+        ixx="9.25887924169887E-05"
+        ixy="6.78546596234906E-22"
+        ixz="-5.362954485559E-24"
+        iyy="9.25887924169888E-05"
+        iyz="-8.91573640147401E-22"
+        izz="0.000177381436372488" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/nine/ballzaros/meshes/Left_Wheel_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/nine/ballzaros/meshes/Left_Wheel_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Left_Motor"
+    type="continuous">
+    <origin
+      xyz="0 0.12918 -0.043"
+      rpy="-1.5708 0 0" />
+    <parent
+      link="Origin_link" />
+    <child
+      link="Left_Wheel_Link" />
+    <axis
+      xyz="0 0 -1" />
+  </joint>
+  <link
+    name="Right_Wheel_Link">
+    <inertial>
+      <origin
+        xyz="-4.84337214157067E-16 0.000504197063261616 -0.00949999999999998"
+        rpy="0 0 0" />
+      <mass
+        value="0.108269552981515" />
+      <inertia
+        ixx="9.25887924169887E-05"
+        ixy="-6.52697202092608E-22"
+        ixz="-3.19692910978659E-19"
+        iyy="9.25887924169888E-05"
+        iyz="-4.21955719263178E-21"
+        izz="0.000177381436372488" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/nine/ballzaros/meshes/Right_Wheel_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/nine/ballzaros/meshes/Right_Wheel_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Right_Motor"
+    type="continuous">
+    <origin
+      xyz="0 -0.13682 -0.042496"
+      rpy="-1.5708 0 0" />
+    <parent
+      link="Origin_link" />
+    <child
+      link="Right_Wheel_Link" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+  <link
+    name="Lidar_Front_Link">
+    <inertial>
+      <origin
+        xyz="-2.34552673525901E-05 4.33680868994202E-19 -0.00092532797858455"
+        rpy="0 0 0" />
+      <mass
+        value="0.248316720758955" />
+      <inertia
+        ixx="8.31868412025184E-05"
+        ixy="-2.46961208427154E-17"
+        ixz="1.59129766878295E-07"
+        iyy="8.34263427877667E-05"
+        iyz="4.62019133550319E-17"
+        izz="0.000121555340807233" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/nine/ballzaros/meshes/Lidar_Front_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.109803921568627 0.109803921568627 0.109803921568627 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/nine/ballzaros/meshes/Lidar_Front_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Lidar_Front"
+    type="fixed">
+    <origin
+      xyz="0.24 0.23618 0.211"
+      rpy="0 0 0.7854" />
+    <parent
+      link="Origin_link" />
+    <child
+      link="Lidar_Front_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="Lidar_Back_Link">
+    <inertial>
+      <origin
+        xyz="-2.34552673527011E-05 8.67361737988404E-19 -0.000925327978584606"
+        rpy="0 0 0" />
+      <mass
+        value="0.248316720758954" />
+      <inertia
+        ixx="8.31868412025183E-05"
+        ixy="-2.47063058297795E-17"
+        ixz="1.59129766878273E-07"
+        iyy="8.34263427877667E-05"
+        iyz="4.62001824052407E-17"
+        izz="0.000121555340807233" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/nine/ballzaros/meshes/Lidar_Back_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.109803921568627 0.109803921568627 0.109803921568627 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/nine/ballzaros/meshes/Lidar_Back_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Lidar_Back"
+    type="fixed">
+    <origin
+      xyz="-0.24 -0.24382 0.211"
+      rpy="0 0 -2.3562" />
+    <parent
+      link="Origin_link" />
+    <child
+      link="Lidar_Back_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="Cam_Front_Link">
+    <inertial>
+      <origin
+        xyz="0.000136108195541051 -0.00348873408516975 -0.0124440208612095"
+        rpy="0 0 0" />
+      <mass
+        value="0.107910426941064" />
+      <inertia
+        ixx="7.02567371989982E-05"
+        ixy="-2.48406032681631E-10"
+        ixz="-4.92977492283217E-08"
+        iyy="7.71002118227132E-06"
+        iyz="-1.78476597036515E-08"
+        izz="7.12550263589916E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/nine/ballzaros/meshes/Cam_Front_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.898039215686275 0.917647058823529 0.929411764705882 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/nine/ballzaros/meshes/Cam_Front_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Cam_Front"
+    type="fixed">
+    <origin
+      xyz="0.26042 -0.0003208 0.27027"
+      rpy="0 1.5708 0" />
+    <parent
+      link="Origin_link" />
+    <child
+      link="Cam_Front_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="Cam_Back_Link">
+    <inertial>
+      <origin
+        xyz="0.000136108268634083 -0.00348873435435851 -0.0124440208612095"
+        rpy="0 0 0" />
+      <mass
+        value="0.107910426941064" />
+      <inertia
+        ixx="7.02567372000661E-05"
+        ixy="-2.48410636721036E-10"
+        ixz="-4.92978538184006E-08"
+        iyy="7.71002117969225E-06"
+        iyz="-1.78472851619139E-08"
+        izz="7.12550263574806E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/nine/ballzaros/meshes/Cam_Back_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.898039215686275 0.917647058823529 0.929411764705882 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/nine/ballzaros/meshes/Cam_Back_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Cam_Back"
+    type="fixed">
+    <origin
+      xyz="-0.25742 -0.0073208 0.31227"
+      rpy="3.1416 1.5708 0" />
+    <parent
+      link="Origin_link" />
+    <child
+      link="Cam_Back_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="IMU_Link">
+    <inertial>
+      <origin
+        xyz="0.00819747157258423 -0.000135591246463991 -8.58802587027641E-05"
+        rpy="0 0 0" />
+      <mass
+        value="0.0178816032992709" />
+      <inertia
+        ixx="3.50890500832019E-06"
+        ixy="5.90897838392944E-11"
+        ixz="1.02803084562227E-08"
+        iyy="1.96149528114782E-06"
+        iyz="-2.27754731384441E-11"
+        izz="2.25934528622388E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/nine/ballzaros/meshes/IMU_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/nine/ballzaros/meshes/IMU_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="IMU"
+    type="fixed">
+    <origin
+      xyz="-0.124 -0.00368479532410514 0.465920143871517"
+      rpy="0 0 0" />
+    <parent
+      link="Origin_link" />
+    <child
+      link="IMU_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+</robot>

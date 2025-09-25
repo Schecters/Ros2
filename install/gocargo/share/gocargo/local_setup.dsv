@@ -1,1 +1,2 @@
-/home/nine/ballzaros/build/gocargo/ament_cmake_environment_hooks/local_setup.dsv
+source;share/gocargo/environment/ament_prefix_path.sh
+source;share/gocargo/environment/path.sh

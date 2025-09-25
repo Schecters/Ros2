@@ -1,1 +1,0 @@
-/home/nine/ballzaros/launch/2lidar.py

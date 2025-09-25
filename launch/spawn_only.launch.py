@@ -38,9 +38,19 @@ def generate_launch_description():
         arguments=['-topic', 'robot_description', '-entity', 'security_robot'],
         output='screen'
     )
+    
+    teleop_keyboard = Node(
+        package='teleop_twist_keyboard',
+        executable='teleop_twist_keyboard',
+        name='teleop_twist_keyboard',
+        output='screen',
+        prefix='xterm -e',
+        arguments=[],
+        )
 
     return LaunchDescription([
         gazebo,
         node_robot_state_publisher,
         spawn_entity,
+            teleop_keyboard,
     ])

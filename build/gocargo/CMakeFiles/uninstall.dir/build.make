@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nine/ballzaros
+CMAKE_SOURCE_DIR = /home/nine/ballzaros_ws/src/ballzaros
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nine/ballzaros/build/gocargo
+CMAKE_BINARY_DIR = /home/nine/ballzaros_ws/src/ballzaros/build/gocargo
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/nine/ballzaros/build/gocargo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nine/ballzaros /home/nine/ballzaros /home/nine/ballzaros/build/gocargo /home/nine/ballzaros/build/gocargo /home/nine/ballzaros/build/gocargo/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nine/ballzaros_ws/src/ballzaros/build/gocargo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nine/ballzaros_ws/src/ballzaros /home/nine/ballzaros_ws/src/ballzaros /home/nine/ballzaros_ws/src/ballzaros/build/gocargo /home/nine/ballzaros_ws/src/ballzaros/build/gocargo /home/nine/ballzaros_ws/src/ballzaros/build/gocargo/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 
