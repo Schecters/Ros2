@@ -1,0 +1,9 @@
+-- Install configuration: ""
+-- Up-to-date: /home/nine/ballzaros/install/gocargo/share/gocargo/launch
+-- Up-to-date: /home/nine/ballzaros/install/gocargo/share/gocargo/launch/bringup.launch.py
+-- Installing: /home/nine/ballzaros/install/gocargo/share/gocargo/launch/robot.launch.py
+[31mCMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot find "/home/nine/ballzaros/urdf": No such file or
+  directory.
+
+[0m

@@ -1,0 +1,5 @@
+[31mCMake Error at CMakeLists.txt:8:
+  Parse error.  Expected "(", got identifier with text "dependencies".
+
+[0m
+gmake: *** [Makefile:226: cmake_check_build_system] Error 1

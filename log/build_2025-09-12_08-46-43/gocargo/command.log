@@ -1,0 +1,6 @@
+Invoking command in '/home/nine/ballzaros/build/gocargo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nine/ballzaros -DCMAKE_INSTALL_PREFIX=/home/nine/ballzaros/install/gocargo
+Invoked command in '/home/nine/ballzaros/build/gocargo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nine/ballzaros -DCMAKE_INSTALL_PREFIX=/home/nine/ballzaros/install/gocargo
+Invoking command in '/home/nine/ballzaros/build/gocargo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nine/ballzaros/build/gocargo -- -j16 -l16
+Invoked command in '/home/nine/ballzaros/build/gocargo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nine/ballzaros/build/gocargo -- -j16 -l16
+Invoking command in '/home/nine/ballzaros/build/gocargo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nine/ballzaros/build/gocargo
+Invoked command in '/home/nine/ballzaros/build/gocargo' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nine/ballzaros/build/gocargo

@@ -1,0 +1,23 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/nine/ballzaros/install/gocargo/share/gocargo/launch/bringup.launch.py
+-- Up-to-date symlink: /home/nine/ballzaros/install/gocargo/share/gocargo/launch/robot.launch.py
+-- Up-to-date symlink: /home/nine/ballzaros/install/gocargo/share/gocargo/urdf/AllPart_ROS_1.xacro
+-- Up-to-date symlink: /home/nine/ballzaros/install/gocargo/share/gocargo/map/gocargo.pgm
+-- Up-to-date symlink: /home/nine/ballzaros/install/gocargo/share/gocargo/map/gocargo.yaml
+-- Up-to-date symlink: /home/nine/ballzaros/install/gocargo/share/gocargo/config/controllers.yaml
+-- Up-to-date symlink: /home/nine/ballzaros/install/gocargo/share/ament_index/resource_index/package_run_dependencies/gocargo
+-- Up-to-date symlink: /home/nine/ballzaros/install/gocargo/share/ament_index/resource_index/parent_prefix_path/gocargo
+-- Up-to-date symlink: /home/nine/ballzaros/install/gocargo/share/gocargo/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/nine/ballzaros/install/gocargo/share/gocargo/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/nine/ballzaros/install/gocargo/share/gocargo/environment/path.sh
+-- Up-to-date symlink: /home/nine/ballzaros/install/gocargo/share/gocargo/environment/path.dsv
+-- Up-to-date symlink: /home/nine/ballzaros/install/gocargo/share/gocargo/local_setup.bash
+-- Up-to-date symlink: /home/nine/ballzaros/install/gocargo/share/gocargo/local_setup.sh
+-- Up-to-date symlink: /home/nine/ballzaros/install/gocargo/share/gocargo/local_setup.zsh
+-- Up-to-date symlink: /home/nine/ballzaros/install/gocargo/share/gocargo/local_setup.dsv
+-- Symlinking: /home/nine/ballzaros/install/gocargo/share/gocargo/package.dsv
+-- Up-to-date symlink: /home/nine/ballzaros/install/gocargo/share/ament_index/resource_index/packages/gocargo
+-- Up-to-date symlink: /home/nine/ballzaros/install/gocargo/share/gocargo/cmake/gocargoConfig.cmake
+-- Up-to-date symlink: /home/nine/ballzaros/install/gocargo/share/gocargo/cmake/gocargoConfig-version.cmake
+-- Up-to-date symlink: /home/nine/ballzaros/install/gocargo/share/gocargo/package.xml

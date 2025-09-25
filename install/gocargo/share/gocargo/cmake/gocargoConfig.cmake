@@ -1,0 +1,1 @@
+/home/nine/ballzaros/build/gocargo/ament_cmake_core/gocargoConfig.cmake

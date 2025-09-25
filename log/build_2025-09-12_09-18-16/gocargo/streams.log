@@ -1,0 +1,44 @@
+[0.006s] Invoking command in '/home/nine/ballzaros/build/gocargo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nine/ballzaros/build/gocargo -- -j16 -l16
+[0.021s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.092s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.096s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.112s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.113s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.117s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.122s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.129s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.147s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.148s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.204s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.244s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.266s] -- Found xacro: 2.0.13 (/opt/ros/humble/share/xacro/cmake)
+[0.268s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[0.292s] -- Found controller_manager: 2.51.0 (/opt/ros/humble/share/controller_manager/cmake)
+[0.387s] -- Found ros2_control: 2.51.0 (/opt/ros/humble/share/ros2_control/cmake)
+[0.389s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.452s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.452s] -- Configured cppcheck include dirs: 
+[0.452s] -- Configured cppcheck exclude dirs and/or files: 
+[0.454s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.457s] -- Added test 'lint_cmake' to check CMake code style
+[0.459s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.466s] -- Added test 'uncrustify' to check C / C++ code style
+[0.466s] -- Configured uncrustify additional arguments: 
+[0.467s] -- Added test 'xmllint' to check XML markup files
+[0.469s] -- Configuring done
+[0.471s] [31mCMake Error at CMakeLists.txt:19 (add_executable):
+[0.471s]   Cannot find source file:
+[0.471s] 
+[0.471s]     src/laser_filter_node.cpp
+[0.471s] 
+[0.471s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[0.471s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[0.471s] 
+[0.471s] [0m
+[0.472s] [31mCMake Error at CMakeLists.txt:19 (add_executable):
+[0.472s]   No SOURCES given to target: laser_filter_node
+[0.472s] 
+[0.472s] [0m
+[0.472s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[0.478s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.480s] Invoked command in '/home/nine/ballzaros/build/gocargo' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nine/ballzaros/build/gocargo -- -j16 -l16

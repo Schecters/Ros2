@@ -1,0 +1,4 @@
+source;share/gocargo/local_setup.bash
+source;share/gocargo/local_setup.dsv
+source;share/gocargo/local_setup.sh
+source;share/gocargo/local_setup.zsh

@@ -1,0 +1,8 @@
+source;share/gocargo/hook/cmake_prefix_path.ps1
+source;share/gocargo/hook/cmake_prefix_path.dsv
+source;share/gocargo/hook/cmake_prefix_path.sh
+source;share/gocargo/local_setup.bash
+source;share/gocargo/local_setup.dsv
+source;share/gocargo/local_setup.ps1
+source;share/gocargo/local_setup.sh
+source;share/gocargo/local_setup.zsh

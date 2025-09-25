@@ -1,0 +1,9 @@
+[0.006s] Invoking command in '/home/nine/ballzaros/build/gocargo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nine/ballzaros/build/gocargo -- -j16 -l16
+[0.019s] [31mCMake Error at CMakeLists.txt:8:
+[0.020s]   Parse error.  Expected "(", got identifier with text "dependencies".
+[0.020s] 
+[0.020s] [0m
+[0.020s] -- Configuring incomplete, errors occurred!
+[0.020s] See also "/home/nine/ballzaros/build/gocargo/CMakeFiles/CMakeOutput.log".
+[0.020s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.022s] Invoked command in '/home/nine/ballzaros/build/gocargo' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nine/ballzaros/build/gocargo -- -j16 -l16

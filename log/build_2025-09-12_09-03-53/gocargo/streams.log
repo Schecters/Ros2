@@ -1,0 +1,27 @@
+[0.010s] Invoking command in '/home/nine/ballzaros/build/gocargo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nine/ballzaros/build/gocargo -- -j16 -l16
+[0.051s] Invoked command in '/home/nine/ballzaros/build/gocargo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nine/ballzaros/build/gocargo -- -j16 -l16
+[0.062s] Invoking command in '/home/nine/ballzaros/build/gocargo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nine/ballzaros/build/gocargo
+[0.069s] -- Install configuration: ""
+[0.069s] -- Execute custom install script
+[0.070s] -- Up-to-date symlink: /home/nine/ballzaros/install/gocargo/share/gocargo/launch/bringup.launch.py
+[0.070s] -- Up-to-date symlink: /home/nine/ballzaros/install/gocargo/share/gocargo/launch/robot.launch.py
+[0.070s] -- Up-to-date symlink: /home/nine/ballzaros/install/gocargo/share/gocargo/urdf/AllPart_ROS_1.xacro
+[0.070s] -- Up-to-date symlink: /home/nine/ballzaros/install/gocargo/share/gocargo/map/gocargo.pgm
+[0.070s] -- Up-to-date symlink: /home/nine/ballzaros/install/gocargo/share/gocargo/map/gocargo.yaml
+[0.070s] -- Up-to-date symlink: /home/nine/ballzaros/install/gocargo/share/gocargo/config/controllers.yaml
+[0.070s] -- Up-to-date symlink: /home/nine/ballzaros/install/gocargo/share/ament_index/resource_index/package_run_dependencies/gocargo
+[0.071s] -- Up-to-date symlink: /home/nine/ballzaros/install/gocargo/share/ament_index/resource_index/parent_prefix_path/gocargo
+[0.071s] -- Up-to-date symlink: /home/nine/ballzaros/install/gocargo/share/gocargo/environment/ament_prefix_path.sh
+[0.071s] -- Up-to-date symlink: /home/nine/ballzaros/install/gocargo/share/gocargo/environment/ament_prefix_path.dsv
+[0.071s] -- Up-to-date symlink: /home/nine/ballzaros/install/gocargo/share/gocargo/environment/path.sh
+[0.071s] -- Up-to-date symlink: /home/nine/ballzaros/install/gocargo/share/gocargo/environment/path.dsv
+[0.071s] -- Up-to-date symlink: /home/nine/ballzaros/install/gocargo/share/gocargo/local_setup.bash
+[0.071s] -- Up-to-date symlink: /home/nine/ballzaros/install/gocargo/share/gocargo/local_setup.sh
+[0.072s] -- Up-to-date symlink: /home/nine/ballzaros/install/gocargo/share/gocargo/local_setup.zsh
+[0.072s] -- Up-to-date symlink: /home/nine/ballzaros/install/gocargo/share/gocargo/local_setup.dsv
+[0.072s] -- Symlinking: /home/nine/ballzaros/install/gocargo/share/gocargo/package.dsv
+[0.080s] -- Up-to-date symlink: /home/nine/ballzaros/install/gocargo/share/ament_index/resource_index/packages/gocargo
+[0.081s] -- Up-to-date symlink: /home/nine/ballzaros/install/gocargo/share/gocargo/cmake/gocargoConfig.cmake
+[0.081s] -- Up-to-date symlink: /home/nine/ballzaros/install/gocargo/share/gocargo/cmake/gocargoConfig-version.cmake
+[0.081s] -- Up-to-date symlink: /home/nine/ballzaros/install/gocargo/share/gocargo/package.xml
+[0.083s] Invoked command in '/home/nine/ballzaros/build/gocargo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nine/ballzaros/build/gocargo

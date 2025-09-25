@@ -1,0 +1,7 @@
+[31mCMake Error at CMakeLists.txt:8:
+  Parse error.  Expected "(", got identifier with text "dependencies".
+
+[0m
+-- Configuring incomplete, errors occurred!
+See also "/home/nine/ballzaros/build/gocargo/CMakeFiles/CMakeOutput.log".
+gmake: *** [Makefile:226: cmake_check_build_system] Error 1
