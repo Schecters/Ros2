@@ -6,10 +6,12 @@
   name="AllPart_ROS_Z-up_W">
   <link
     name="Origin_link">
+    <!-- Origin xyz แก้ได้ -->
     <inertial>
       <origin
         xyz="0 0 -50"
         rpy="0 0 0" />
+        <!-- mass แก้ได้ -->
       <mass
         value="5" />
       <inertia
@@ -490,6 +492,7 @@
       <wheel_diameter>0.1</wheel_diameter>
 
       <!-- limits -->
+      <!-- torque/acc แก้ได้ -->
   <max_wheel_torque>0.5</max_wheel_torque>
   <max_wheel_acceleration>1.0</max_wheel_acceleration>
 
@@ -505,6 +508,7 @@
   </gazebo>
     <!-- กำหนด physics ให้ล้อซ้าย -->
   <gazebo reference="Left_Wheel_Link">
+  <!-- mu1/2  ค่าสัมประสิทธิ์แรงเสียดทาน --> 
     <mu1>3.0</mu1>
     <mu2>3.0</mu2>
     <kp>100000.0</kp>
@@ -513,11 +517,11 @@
 
   <!-- กำหนด physics ให้ล้อขวา -->
   <gazebo reference="Right_Wheel_Link">
+  <!-- mu1/2 ค่าสัมประสิทธิ์แรงเสียดทาน--> 
     <mu1>3.0</mu1>
     <mu2>3.0</mu2>
     <kp>100000.0</kp>
     <kd>1.0</kd>
   </gazebo>
-
 
 </robot>
