@@ -4,6 +4,7 @@ from launch import LaunchDescription
 from launch.actions import IncludeLaunchDescription
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch_ros.actions import Node
+from launch.actions import TimerAction
 import xacro
 
 def generate_launch_description():
@@ -32,13 +33,6 @@ def generate_launch_description():
         parameters=[robot_description]
     )
 
-    spawn_entity = Node(
-        package='gazebo_ros',
-        executable='spawn_entity.py',
-        arguments=['-topic', 'robot_description', '-entity', 'security_robot'],
-        output='screen'
-    )
-    
     teleop_keyboard = Node(
         package='teleop_twist_keyboard',
         executable='teleop_twist_keyboard',
@@ -47,10 +41,19 @@ def generate_launch_description():
         prefix='xterm -e',
         arguments=[],
         )
+    spawn_entity = TimerAction(
+    period=3.0,  # รอ 3 วินาที
+    actions=[Node(
+        package='gazebo_ros',
+        executable='spawn_entity.py',
+        arguments=['-topic', 'robot_description', '-entity', 'my_robot'],
+        output='screen'
+    )]
+)
 
     return LaunchDescription([
         gazebo,
         node_robot_state_publisher,
         spawn_entity,
-            teleop_keyboard,
+        teleop_keyboard,
     ])

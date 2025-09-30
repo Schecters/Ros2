@@ -1,2 +1,3 @@
+colcon buidl
+souece install/setup.bash
 ros2 launch gocargo spawn_only.launch.py
-ros2 run teleop_twist_keyboard teleop_twist_keyboard

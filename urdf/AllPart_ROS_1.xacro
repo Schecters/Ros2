@@ -8,10 +8,10 @@
     name="Origin_link">
     <inertial>
       <origin
-        xyz="-0.0026663 -0.014052 0.44571"
+        xyz="0 0 -50"
         rpy="0 0 0" />
       <mass
-        value="75.301" />
+        value="5" />
       <inertia
         ixx="2.5951"
         ixy="0.14212"
@@ -95,7 +95,7 @@
     <child
       link="Left_Wheel_Link" />
     <axis
-      xyz="0 0 -1" />
+      xyz="0 0 1" />
   </joint>
   <link
     name="Right_Wheel_Link">
@@ -490,8 +490,8 @@
       <wheel_diameter>0.1</wheel_diameter>
 
       <!-- limits -->
-  <max_wheel_torque>5000</max_wheel_torque>
-  <max_wheel_acceleration>1000.0</max_wheel_acceleration>
+  <max_wheel_torque>0.5</max_wheel_torque>
+  <max_wheel_acceleration>1.0</max_wheel_acceleration>
 
       <!-- output -->
       <publish_odom>true</publish_odom>
@@ -503,5 +503,21 @@
     <cmd_vel_topic>cmd_vel</cmd_vel_topic>
     </plugin>
   </gazebo>
+    <!-- กำหนด physics ให้ล้อซ้าย -->
+  <gazebo reference="Left_Wheel_Link">
+    <mu1>3.0</mu1>
+    <mu2>3.0</mu2>
+    <kp>100000.0</kp>
+    <kd>1.0</kd>
+  </gazebo>
+
+  <!-- กำหนด physics ให้ล้อขวา -->
+  <gazebo reference="Right_Wheel_Link">
+    <mu1>3.0</mu1>
+    <mu2>3.0</mu2>
+    <kp>100000.0</kp>
+    <kd>1.0</kd>
+  </gazebo>
+
 
 </robot>
